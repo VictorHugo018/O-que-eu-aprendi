@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  background-image: url('../images/fundosite.jpg'); /* Adicione uma imagem de fundo adequada */
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.Retangulos {
+  background-color: #e3f2fd;
+  padding: 40px 0;
+  background-image: url('../images/kkkkkkkimg.avif'); /* Adicione uma imagem de fundo  */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-bottom: 36px;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1a237e;
+  text-align: center;
+}
+
+section p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.tamanhoecor {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.tamanhoecor i {
+  font-size: 3rem;
+  color: #007bff; /* Azul destacado, pode ajustar a cor conforme preferir */
+  transition: color 0.3s ease-in-out;
+}
+
+
+
+footer {
+  color: #000000;
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+  Background-image: url('../images/kkkkkkkimg.avif');
+}
+
+footer p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+
+.imgs{
+    width: 140px;
+    align-self: center;
+    justify-content: center;
+
+}
+
+.imge{
+  width: 140px;
+  margin: auto;
+}
